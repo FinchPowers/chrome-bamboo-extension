@@ -1,0 +1,23 @@
+{
+  "manifest_version": 2,
+
+  "name": "Bamboo Status",
+  "description": "Provides the status of your favorite plans",
+  "version": "0.1",
+  "browser_action": {
+    "default_icon": "images/BAMBOO.png"
+  },
+  "icons" : {
+    "48"  : "images/BAMBOO.png",
+    "128" : "images/bamboo128.png"
+  },
+
+  "background" : {
+    "scripts" : ["jquery-2.0.2.min.js", "script.js"]
+  },
+
+  "permissions" : [
+    "https://datacratic.atlassian.net/",
+    "notifications"
+  ]
+}
