@@ -2,7 +2,7 @@
   "manifest_version": 2,
 
   "name": "Bamboo Status",
-  "description": "Provides the status of your favorite plans",
+  "description": "Provides the status of your favorite plans.",
   "version": "0.1",
   "browser_action": {
     "default_icon": "images/BAMBOO.png"
